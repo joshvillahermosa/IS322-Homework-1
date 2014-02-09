@@ -97,6 +97,14 @@ h1 {
 
 
 
+@media screen and (max-width: 40.5em){ /*Learned that you can apply
+    media Q in css*/
+    #MediaQ h2{
+        color: yellow;
+    }
+}
+
+
 
 
 
