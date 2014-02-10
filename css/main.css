@@ -98,7 +98,7 @@ h1 {
 
 
 @media screen and (max-width: 40.5em){ /*Learned that you can apply
-    media Q in css*/
+    media Q in css. Note this is space sensitive*/
     #MediaQ h2{
         color: yellow;
     }
