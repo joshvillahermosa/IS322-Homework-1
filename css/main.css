@@ -91,19 +91,46 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-h1 {
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+/*.center * {
+    text-align: left;
+}*/
+
+header {
+    background-color: #1F1F1F;
     color: red;
+    padding: 10px 10px;
 }
 
-
-
-@media screen and (max-width: 40.5em){ /*Learned that you can apply
-    media Q in css. Note this is space sensitive*/
-    #MediaQ h2{
-        color: yellow;
-    }
+nav ul{
+    display: inline;
+    list-style: none;
 }
 
+nav li{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    padding-right: 5px;
+    border-right: 1px solid #6A6A6A;
+}
+
+nav li a{
+    color: red;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: orange;
+    text-decoration: underline;
+}
 
 
 
