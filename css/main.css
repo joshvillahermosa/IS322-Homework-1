@@ -318,6 +318,32 @@ header[role="banner"] a:hover, header[role="banner"] a:focus {
     color: #fff;
 }
 
+.nav {
+    margin: 0 -1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+header[role="banner"] .nav {
+    border-top: 1px solid #333;
+    clear: left;
+}
+.nav li {
+    display: inline-block;
+    position: relative;
+}
+.nav li a {
+    display: block;
+    padding: 1em;
+    border-left: 1px solid #333;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out; 
+    transition:  all 0.3s ease-out;
+}
+.nav li:first-child a {
+    border-left: 0;
+}
 
 
 
