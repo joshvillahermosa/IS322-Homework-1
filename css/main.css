@@ -514,7 +514,9 @@ header[role="banner"] .nav {
     padding-right: 15px;
 }
 
-
+.product-description header {
+    border-top: 1px solid #333;
+}
 
 /* ==========================================================================
    Helper classes
